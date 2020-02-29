@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
                 controller.FaceMaterial = PokerCardFactory.GetInstance().Materials[controller.Card.Name];
                 controller.UpdateFaceMaterial();
             }
+            Debug.Log("Card Grabbed: " + controller.Card.Name);
         }
     }
 
@@ -52,6 +53,7 @@ public class GameManager : MonoBehaviour
                 controller.FaceMaterial = PokerCardFactory.GetInstance().Materials[controller.Card.Name];
                 controller.UpdateFaceMaterial();
             }
+            Debug.Log("Card Grabbed: " + controller.Card.Name);
         }
     }
     
@@ -65,6 +67,7 @@ public class GameManager : MonoBehaviour
             _deck.AddToTop(temp.RemoveFromTop());
         }
         numberOfDecks += 1;
+        Debug.Log("Deck Added, Number of Decks: " + numberOfDecks);
     }
 
     // Update is called once per frame
