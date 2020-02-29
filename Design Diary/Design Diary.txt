@@ -1,0 +1,12 @@
+	This Project was difficult in that I had to spend a decent amount of time on trying to learn what your program did.
+The hard part was tracking what command did what when I only recognized a few of the commands. Being unfamiliar with 
+Unity made this much harder. I was able to finish the project but I ran into many problems with setting up the spawning
+of the cards. I never did finish that but was able to implement all of the required portions of the project. Shuffling was
+fun to look into because I debated what would be the best way of shuffling. Cutting was interesting but did not represent
+a properly random form of shuffling to me. I did a decent job at implementing riffle shuffling. Its not amazing but It works.
+It does seem that the bottom card of the deck is always a specific card(either the first card or the second of the original
+pile). 
+
+	In the future I feel that this is a great oppurtunity to see more complicated code and to learn how to work around it. 
+I would suggest doing a similar project if not the same project in future classes. It is also a great confidence boost, when
+you can get it to work properly.   
